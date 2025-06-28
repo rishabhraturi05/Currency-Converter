@@ -122,6 +122,11 @@ body {
     padding:0 1vmin;
 }
 
+.container h1 {
+    text-align: center;
+    font-size: 8vmin;
+}
+
 .msg{
     font-size: 2.5vmin;
     text-align: center;
