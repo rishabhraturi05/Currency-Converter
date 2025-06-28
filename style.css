@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #e5dfc9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+    background-color: rgba(239, 209, 101, 0.474);
+    border: none;
+    border-radius: 2vmin;   
+    padding: 5vmin;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    font-size: 4vmin;
+}
+
+#amount {
+    width: 22vmin;
+    height: 5vmin;
+    font-size: 2.5vmin;
+    padding: 0.5vmin;
+    border-radius: 1.5vmin;
+    border: none;
+    background-color: rgb(239, 209, 101);
+    text-align: center;
+}
+
+.select_country {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+
+.from,
+.to {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    font-size: 4vmin;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.converter_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+
+.convert_btn {
+    width: 35vmin;
+    height: 8vmin;
+    font-size: 3vmin;
+    border-radius: 1.5vmin;
+    border: none;
+    background-color: rgba(235, 43, 238, 0.497);
+    cursor: pointer;
+}
+
+#from_currency,
+#to_currency {
+    font-size: 2.5vmin;
+    border-radius: 1vmin;
+    border: none;
+    background-color: rgb(239, 209, 101);
+}
+
+.select_to img{
+    height:5vmin;
+    width: auto;
+}
+
+.select_from img{
+    height:5vmin;
+    width: auto;
+}
+
+.select_from,
+.select_to {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 209, 101);
+    border-radius: 1vmin;
+    padding:0 1vmin;
+}
+
+.msg{
+    font-size: 2.5vmin;
+    text-align: center;
+}
