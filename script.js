@@ -51,10 +51,11 @@ calculateExchangeRate = async(e) => {
     let rate = data[from.value.toLowerCase()][to.value.toLowerCase()];
     
     let finalAmt = (amtVal * rate);
-    msg.innerText = `Exchange Rate: 1 ${from.value} = ${finalAmt.toFixed(5)} ${to.value}`;
+    msg.innerText = `Exchange Rate: amtVal ${from.value} = ${finalAmt.toFixed(5)} ${to.value}`;
 };
 
 window.addEventListener("load", () => {
   calculateExchangeRate();
 });
+
 
